@@ -18,7 +18,7 @@ export default class Map extends Component {
         <GoogleMapReact
           boostrapURLKeys={{key: env.MAPS_API_KEY}}
           defaultCenter={this.props.center}
-          defaultsZoom={this.props.zoom}
+          defaultZoom={this.props.zoom}
         >
 
         </GoogleMapReact>

@@ -38,6 +38,6 @@
     ]
   },
   "react-dotenv": {
-      "whitelist": []
+      "whitelist": ["MAPS_API_KEY"]
   }
 }
